@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Animals"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="391dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_card"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="86dp"
+                android:layout_height="81dp"
+                android:contentDescription="@string/contentd_animal1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chameleon" />
+
+            <LinearLayout
+                android:layout_width="139dp"
+                android:layout_height="94dp"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:text="@string/chameleon"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/description1"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="@string/а_color_changing_reptile"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/details_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="13dp"
+                android:text="@string/details" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="391dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_card"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="86dp"
+                android:layout_height="80dp"
+                android:contentDescription="@string/contentd_animal2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/owl" />
+
+            <LinearLayout
+                android:layout_width="139dp"
+                android:layout_height="94dp"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:text="@string/owl"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/description2"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="@string/a_night_bird_predator"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/details_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="13dp"
+                android:text="@string/owl_details" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="391dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_card"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="86dp"
+                android:layout_height="82dp"
+                android:contentDescription="@string/contentd_animal3"
+                android:scaleType="centerCrop"
+                android:src="@drawable/octopus" />
+
+            <LinearLayout
+                android:layout_width="139dp"
+                android:layout_height="94dp"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:text="@string/octopus"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/description3"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="@string/cephalopod_marine_animal"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/details_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/octopus_details" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

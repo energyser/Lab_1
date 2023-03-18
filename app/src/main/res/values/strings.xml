@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab 1</string>
+    <string name="chameleon">Chameleon</string>
+    <string name="а_color_changing_reptile">А color-changing reptile</string>
+    <string name="details">Details</string>
+    <string name="owl">Owl</string>
+    <string name="a_night_bird_predator">А night bird is a predator</string>
+    <string name="owl_details">Details</string>
+    <string name="octopus">Octopus</string>
+    <string name="cephalopod_marine_animal">Cephalopod marine animal</string>
+    <string name="octopus_details">Details</string>
+    <string name="contentd_animal1">animal1</string>
+    <string name="contentd_animal2">animal2</string>
+    <string name="contentd_animal3">animal3</string>
+    <string name="fulld_chameleon">A chameleon is a reptile that has the ability to change its color and skin texture to blend in with its environment and protect itself from predators. They have a long, curved tongue that they can use to catch insects and other small prey. Chameleons also have large eyes that allow them to see well. </string>
+    <string name="fulld_owl">The owl is a nocturnal predator that has soft, fluffy plumage that provides it with warmth and helps it fly silently. They have very good hearing and vision, which allows them to easily find prey. Owls are considered one of the most intelligent birds, their intelligence can be compared with the intelligence of mammals. </string>
+    <string name="fulld_octopus">An octopus is an invertebrate animal with eight long limbs (tentacles) that have sticky suckers. Octopuses have intelligence that allows them to solve complex problems and use tools. They also have the ability to change their skin color and texture to blend in with their environment and protect themselves from predators. </string>
+</resources>
